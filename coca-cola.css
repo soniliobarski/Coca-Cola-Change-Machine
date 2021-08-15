@@ -1,0 +1,99 @@
+@font-face {
+    font-family: font;
+    src: url(fonts/MotionPersonalUseBold-2O0od.ttf);
+  }
+  
+  @font-face {
+      font-family: screen-font;
+      src: url(fonts/LemonMilkRegular-X3XE2.otf);
+  }
+  
+  body {
+      background-color: rgba(187, 49, 61, 0.973);
+  }
+  
+  h1 {
+      font-family: font;
+      color: white;
+      text-align: center;
+  }
+  
+  .change-machine-div {
+      margin: auto;
+      background-image: url("images/change-machine.png");
+      background-size: cover;
+      width: 31vw;
+      max-width: 397px;
+      min-width: 350px;
+      height: 76vh;
+      overflow: hidden;
+  }
+  
+  .command-input-p {
+      font-family: font;
+      position: relative;
+      left: 23.7vw;
+      top: 26vh;
+  }
+  
+  .input {
+      font-family: screen-font;
+      width: 1vw;
+      height: 4vh;
+      padding-left: 3px;
+      background-color: rgb(212 212 212);
+      font-size: large;
+  }
+  
+  .currency-title-table {
+      font-family: screen-font;
+      position: relative;
+      left: 22vw;
+      top: 48vh;
+  }
+  
+  td {
+      text-align: center;
+  }
+  
+  #buy-btn {
+      position: relative;
+      left: 8vw;
+      top: 32vh;
+      width: 9vw;
+      height: 12vh;
+      background-color: #9acd3200;
+      border: none;
+      font-size: xxx-large;
+      text-align: left;
+  }
+  
+  #buy-btn:hover {
+      cursor: pointer;
+  }
+  
+  #massage-screen-div {
+      width: 9vw;
+      font-size: 1vw;
+      position: relative;
+      left: 6.5vw;
+      top: -20vh;
+      text-align: center;
+      font-family: screen-font;
+      animation: my-animation 8s linear infinite;
+    
+  }
+  
+  @keyframes my-animation {
+      from {
+          transform: translateY(70%);
+      }
+  }
+  
+  #cola-can-img {
+      width: 5vh;
+      height: 4vw;
+      position: absolute;
+      left: 60vw;
+      top: 29vh;
+  }
